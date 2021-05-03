@@ -1,0 +1,228 @@
+.projects-screen-container {
+  position: relative;
+  background-color: white;
+}
+
+.projects-screen-intro {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.screen-intro {
+  position: absolute;
+  top: 35%;
+}
+
+.projects-logo {
+  width: 12rem;
+}
+
+.yourtube-logo {
+  width: 3rem;
+}
+
+.project-detail-header {
+  padding-bottom: 20px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.background-Img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%);
+}
+
+.projects-explain {
+  font-size: 3.6rem;
+  color: whitesmoke;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 2vw;
+}
+
+.pro-sf {
+  font-weight: normal;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.projects-detail {
+  display: flex;
+}
+
+.term-wrap {
+  flex: 1 1 0%;
+}
+
+.term-title {
+  color: whitesmoke;
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+
+.term {
+  color: #e4ddd1;
+  font-size: 1.2vw;
+}
+
+.tech-wrap {
+  flex: 1 1 0%;
+}
+
+.tech-title {
+  color: whitesmoke;
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+
+.tech {
+  color: #e4ddd1;
+  font-size: 1.2vw;
+}
+
+.learn-more {
+  flex: 1 1 0%;
+}
+
+.gif-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main-back-color {
+  background-color: #202a45;
+}
+
+.sub-back-color {
+  background-color: rgb(20, 21, 23);
+}
+
+.gif-wrap {
+  text-align: center;
+}
+
+.gif-title {
+  font-weight: 900;
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  letter-spacing: 1.5px;
+  border-bottom: 5px solid #ffa949;
+  color: whitesmoke;
+}
+
+.gif {
+  border-radius: 5px;
+}
+
+.gif-box {
+  margin-top: 2vw;
+}
+
+.header-flex-box {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.header-home {
+  font-size: 1rem;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+}
+
+.header-next-project {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1800px) {
+  .projects-explain {
+    font-size: 3rem;
+  }
+  .projects-logo {
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .projects-explain {
+    font-size: 2.5rem;
+  }
+  .projects-logo {
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .projects-explain {
+    font-size: 2.3rem;
+  }
+  .projects-logo {
+    width: 9rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .projects-explain {
+    font-size: 2rem;
+  }
+  .projects-logo {
+    width: 8rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projects-explain {
+    font-size: 1.5rem;
+  }
+  .projects-logo {
+    width: 7rem;
+  }
+  .gif-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projects-explain {
+    font-size: 1.2rem;
+  }
+  .projects-logo {
+    width: 6rem;
+  }
+  .gif-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects-explain {
+    font-size: 0.9rem;
+  }
+  .projects-logo {
+    width: 5rem;
+  }
+
+  .header-home {
+    font-size: 0.9rem;
+  }
+
+  .header-next-project {
+    font-size: 0.9rem;
+  }
+
+  .gif-title {
+    font-size: 1.4rem;
+  }
+
+  .gif-box {
+    margin-top: 5vw;
+  }
+
+  .project-detail-header {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+}
