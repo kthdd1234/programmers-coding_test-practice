@@ -45,3 +45,6 @@ function solution(s, n) {
     
     return answer;
 }
+
+let [s, n] = ['a B z', 4];
+console.log(solution(s, n));
