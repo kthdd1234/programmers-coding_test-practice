@@ -15,7 +15,7 @@ S사에서는 각 부서에 필요한 물품을 지원해 주기 위해 부서�
 
 function solution(d, budget) {
     let len = d.length;
-    d = d.sort();
+    d = d.sort((a, b) => a - b);
     
     while(d.reduce(sum, 0) > budget) {
         len -= 1;
